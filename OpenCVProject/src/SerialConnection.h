@@ -40,8 +40,9 @@ public:
 private:
 	int WriteRead(unsigned char msg);
 	int CheckOK(int n);
+	unsigned int getBuffInt();
 	const char *SerialHandle;
-	char read_buf[10];
+	char read_buf[5];
 	int Serial_Port;
 	struct termios tty;
 };

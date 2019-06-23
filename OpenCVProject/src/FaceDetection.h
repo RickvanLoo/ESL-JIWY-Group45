@@ -4,9 +4,13 @@
  *  Created on: Jun 20, 2019
  *      Author: esl45
  */
-#include "/usr/include/opencv2/objdetect/objdetect.hpp"
-#include "/usr/include/opencv2/highgui/highgui.hpp"
-#include "/usr/include/opencv2/imgproc/imgproc.hpp"
+//#include "/usr/include/opencv2/objdetect/objdetect.hpp"
+//#include "/usr/include/opencv2/highgui/highgui.hpp"
+//#include "/usr/include/opencv2/imgproc/imgproc.hpp"
+#include "/usr/local/include/opencv2/objdetect.hpp"
+#include "/usr/local/include/opencv2/highgui.hpp"
+#include "/usr/local/include/opencv2/imgproc.hpp"
+
 #include <iostream>
 #include <tuple>
 

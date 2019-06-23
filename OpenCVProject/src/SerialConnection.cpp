@@ -107,7 +107,7 @@ int SerialConnection::HomingPan(){
 
 int SerialConnection::GetPan(){
 	this->WriteRead('z');
-	return atoi(this->read_buf);
+    return (int)getBuffInt();
 }
 
 int SerialConnection::SetPan(int count){
@@ -124,12 +124,21 @@ int SerialConnection::SetPan(int count){
 
 int SerialConnection::MinCountPan(){
 	this->WriteRead('q');
-	return atoi(this->read_buf);
+    return (int)getBuffInt();
 }
 
 int SerialConnection::MaxCountPan(){
 	this->WriteRead('a');
-	return atoi(this->read_buf);
+	return (int)getBuffInt();
+}
+
+unsigned int SerialConnection::getBuffInt(){
+	unsigned int OUT = 0;
+	OUT |= (unsigned int)this->read_buf[1] << 24;
+	OUT |= (unsigned int)this->read_buf[2] << 16;
+	OUT |= (unsigned int)this->read_buf[3] << 8;
+	OUT |= (unsigned int)this->read_buf[4];
+	return OUT;
 }
 
 
