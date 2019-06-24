@@ -24,7 +24,6 @@ int main( int argc, const char** argv )
 	int MinPan = 0;
 	int MaxPan = 0;
 
-    /* 
 	SerialConnection Serial("/dev/ttyO0");
 	if(Serial.Connect()){
 		return 0;
@@ -44,7 +43,6 @@ int main( int argc, const char** argv )
 
 	MinPan = Serial.MinCountPan();
 	MinPan = Serial.MaxCountPan();
-    */
 
     // VideoCapture class for playing video for which faces to be detected
     VideoCapture capture;
@@ -55,10 +53,10 @@ int main( int argc, const char** argv )
     double scale=1;
 
     // Load classifiers from "opencv/data/haarcascades" directory
-    nestedCascade.load( "../data/haarcascade_eye_tree_eyeglasses.xml" ) ;
+    nestedCascade.load( "/home/esl45/Documents/opencv/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml" ) ;
 
     // Change path before execution
-    cascade.load( "../data/haarcascade_frontalcatface.xml" ) ;
+    cascade.load( "/home/esl45/Documents/opencv/data/haarcascades/haarcascade_frontalcatface.xml" ) ;
 
     // Start Video..1) 0 for WebCam 2) "Path to Video" for a Local Video
     capture.open(0);
@@ -88,7 +86,7 @@ int main( int argc, const char** argv )
                 break;
             Mat frame1 = frame.clone();
 
-            //AngleConvert PanConv(MinPan, MaxPan, frame1.cols, frame1.rows);
+            AngleConvert PanConv(MinPan, MaxPan, frame1.cols, frame1.rows);
 
 
             XY = FaceDet.Detect(frame1, cascade, nestedCascade, scale );
@@ -108,16 +106,16 @@ int main( int argc, const char** argv )
             //circle( frame1, ZeroPoint, 5, colorB, 3, 8, 0 );
 
 
-           // PanConv.SetCount(Serial.GetPan());
-            //int OutCount = PanConv.Convert(X);
-           // std::cout << "Count: " << OutCount << std::endl;
+            PanConv.SetCount(Serial.GetPan());
+            int OutCount = PanConv.Convert(X);
+            std::cout << "Count: " << OutCount << std::endl;
 
-           // if(Serial.SetPan(OutCount)){
-           // 	return 0;
-           // }
+            if(Serial.SetPan(OutCount)){
+            	return 0;
+            }
 
 
-            imshow( "Face Detection", frame1 );
+            //imshow( "Face Detection", frame1 );
 
 
             char c = (char)waitKey(10);

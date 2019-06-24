@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rick/Documents/ESL/test
+CMAKE_SOURCE_DIR = /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rick/Documents/ESL/test/build
+CMAKE_BINARY_DIR = /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Overo.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/Overo.dir/flags.make
 
 CMakeFiles/Overo.dir/AngleConvert.cpp.o: CMakeFiles/Overo.dir/flags.make
 CMakeFiles/Overo.dir/AngleConvert.cpp.o: ../AngleConvert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rick/Documents/ESL/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Overo.dir/AngleConvert.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Overo.dir/AngleConvert.cpp.o -c /home/rick/Documents/ESL/test/AngleConvert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Overo.dir/AngleConvert.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Overo.dir/AngleConvert.cpp.o -c /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/AngleConvert.cpp
 
 CMakeFiles/Overo.dir/AngleConvert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Overo.dir/AngleConvert.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rick/Documents/ESL/test/AngleConvert.cpp > CMakeFiles/Overo.dir/AngleConvert.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/AngleConvert.cpp > CMakeFiles/Overo.dir/AngleConvert.cpp.i
 
 CMakeFiles/Overo.dir/AngleConvert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Overo.dir/AngleConvert.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rick/Documents/ESL/test/AngleConvert.cpp -o CMakeFiles/Overo.dir/AngleConvert.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/AngleConvert.cpp -o CMakeFiles/Overo.dir/AngleConvert.cpp.s
 
 CMakeFiles/Overo.dir/FaceDetection.cpp.o: CMakeFiles/Overo.dir/flags.make
 CMakeFiles/Overo.dir/FaceDetection.cpp.o: ../FaceDetection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rick/Documents/ESL/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Overo.dir/FaceDetection.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Overo.dir/FaceDetection.cpp.o -c /home/rick/Documents/ESL/test/FaceDetection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Overo.dir/FaceDetection.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Overo.dir/FaceDetection.cpp.o -c /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/FaceDetection.cpp
 
 CMakeFiles/Overo.dir/FaceDetection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Overo.dir/FaceDetection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rick/Documents/ESL/test/FaceDetection.cpp > CMakeFiles/Overo.dir/FaceDetection.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/FaceDetection.cpp > CMakeFiles/Overo.dir/FaceDetection.cpp.i
 
 CMakeFiles/Overo.dir/FaceDetection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Overo.dir/FaceDetection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rick/Documents/ESL/test/FaceDetection.cpp -o CMakeFiles/Overo.dir/FaceDetection.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/FaceDetection.cpp -o CMakeFiles/Overo.dir/FaceDetection.cpp.s
 
 CMakeFiles/Overo.dir/OpenCVProject.cpp.o: CMakeFiles/Overo.dir/flags.make
 CMakeFiles/Overo.dir/OpenCVProject.cpp.o: ../OpenCVProject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rick/Documents/ESL/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Overo.dir/OpenCVProject.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Overo.dir/OpenCVProject.cpp.o -c /home/rick/Documents/ESL/test/OpenCVProject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Overo.dir/OpenCVProject.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Overo.dir/OpenCVProject.cpp.o -c /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/OpenCVProject.cpp
 
 CMakeFiles/Overo.dir/OpenCVProject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Overo.dir/OpenCVProject.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rick/Documents/ESL/test/OpenCVProject.cpp > CMakeFiles/Overo.dir/OpenCVProject.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/OpenCVProject.cpp > CMakeFiles/Overo.dir/OpenCVProject.cpp.i
 
 CMakeFiles/Overo.dir/OpenCVProject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Overo.dir/OpenCVProject.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rick/Documents/ESL/test/OpenCVProject.cpp -o CMakeFiles/Overo.dir/OpenCVProject.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/OpenCVProject.cpp -o CMakeFiles/Overo.dir/OpenCVProject.cpp.s
 
 CMakeFiles/Overo.dir/SerialConnection.cpp.o: CMakeFiles/Overo.dir/flags.make
 CMakeFiles/Overo.dir/SerialConnection.cpp.o: ../SerialConnection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rick/Documents/ESL/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Overo.dir/SerialConnection.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Overo.dir/SerialConnection.cpp.o -c /home/rick/Documents/ESL/test/SerialConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Overo.dir/SerialConnection.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Overo.dir/SerialConnection.cpp.o -c /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/SerialConnection.cpp
 
 CMakeFiles/Overo.dir/SerialConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Overo.dir/SerialConnection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rick/Documents/ESL/test/SerialConnection.cpp > CMakeFiles/Overo.dir/SerialConnection.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/SerialConnection.cpp > CMakeFiles/Overo.dir/SerialConnection.cpp.i
 
 CMakeFiles/Overo.dir/SerialConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Overo.dir/SerialConnection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rick/Documents/ESL/test/SerialConnection.cpp -o CMakeFiles/Overo.dir/SerialConnection.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/SerialConnection.cpp -o CMakeFiles/Overo.dir/SerialConnection.cpp.s
 
 # Object files for target Overo
 Overo_OBJECTS = \
@@ -140,7 +140,7 @@ Overo: /usr/local/lib/libopencv_flann.so.4.1.1
 Overo: /usr/local/lib/libopencv_imgproc.so.4.1.1
 Overo: /usr/local/lib/libopencv_core.so.4.1.1
 Overo: CMakeFiles/Overo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rick/Documents/ESL/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Overo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Overo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Overo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/Overo.dir/clean:
 .PHONY : CMakeFiles/Overo.dir/clean
 
 CMakeFiles/Overo.dir/depend:
-	cd /home/rick/Documents/ESL/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rick/Documents/ESL/test /home/rick/Documents/ESL/test /home/rick/Documents/ESL/test/build /home/rick/Documents/ESL/test/build /home/rick/Documents/ESL/test/build/CMakeFiles/Overo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/build /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/build /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/build/CMakeFiles/Overo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Overo.dir/depend
 

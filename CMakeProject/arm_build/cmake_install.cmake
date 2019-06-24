@@ -1,4 +1,4 @@
-# Install script for directory: /home/rick/Documents/ESL/test
+# Install script for directory: /home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rick/Documents/ESL/test/arm_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/arm_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

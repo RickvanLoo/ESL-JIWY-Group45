@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/rick/Documents/ESL/test/AngleConvert.cpp
+/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/AngleConvert.cpp
 AngleConvert.h
-/home/rick/Documents/ESL/test/AngleConvert.h
+/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/AngleConvert.h
 
-/home/rick/Documents/ESL/test/AngleConvert.h
+/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/AngleConvert.h
 stdlib.h
 -
 iostream
 -
 
-/home/rick/Documents/ESL/test/FaceDetection.cpp
+/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/FaceDetection.cpp
 FaceDetection.h
-/home/rick/Documents/ESL/test/FaceDetection.h
+/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/FaceDetection.h
 
-/home/rick/Documents/ESL/test/FaceDetection.h
+/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/FaceDetection.h
 opencv2/objdetect.hpp
 -
 opencv2/highgui.hpp
@@ -32,7 +32,7 @@ iostream
 tuple
 -
 
-/home/rick/Documents/ESL/test/OpenCVProject.cpp
+/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/OpenCVProject.cpp
 opencv2/objdetect.hpp
 -
 opencv2/highgui.hpp
@@ -40,21 +40,21 @@ opencv2/highgui.hpp
 opencv2/imgproc.hpp
 -
 FaceDetection.h
-/home/rick/Documents/ESL/test/FaceDetection.h
+/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/FaceDetection.h
 AngleConvert.h
-/home/rick/Documents/ESL/test/AngleConvert.h
+/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/AngleConvert.h
 SerialConnection.h
-/home/rick/Documents/ESL/test/SerialConnection.h
+/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/SerialConnection.h
 iostream
 -
 tuple
 -
 
-/home/rick/Documents/ESL/test/SerialConnection.cpp
+/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/SerialConnection.cpp
 SerialConnection.h
-/home/rick/Documents/ESL/test/SerialConnection.h
+/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/SerialConnection.h
 
-/home/rick/Documents/ESL/test/SerialConnection.h
+/home/rick/Documents/ESL/ESL-JIWY-Group45/CMakeProject/SerialConnection.h
 stdio.h
 -
 stdlib.h
