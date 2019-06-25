@@ -17,6 +17,9 @@
 //No help, variable specified on the command line.
 ARM:UNINITIALIZED=False
 
+//No help, variable specified on the command line.
+BUILD_SHARED_LIBS:UNINITIALIZED=OFF
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
