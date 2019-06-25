@@ -9,7 +9,7 @@
 //#include "/usr/include/opencv2/imgproc/imgproc.hpp"
 //#include <opencv2/objdetect.hpp>
 //#include <opencv2/highgui.hpp>
-//#include <opencv2/imgproc.hpp>
+//gi#include <opencv2/imgproc.hpp>
 
 #include "/usr/include/opencv2/objdetect/objdetect.hpp>
 #include "/usr/include/opencv2/highgui/highgui.hpp>
