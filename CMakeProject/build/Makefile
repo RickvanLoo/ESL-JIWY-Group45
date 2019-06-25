@@ -123,60 +123,6 @@ Overo/fast:
 	$(MAKE) -f CMakeFiles/Overo.dir/build.make CMakeFiles/Overo.dir/build
 .PHONY : Overo/fast
 
-AngleConvert.o: AngleConvert.cpp.o
-
-.PHONY : AngleConvert.o
-
-# target to build an object file
-AngleConvert.cpp.o:
-	$(MAKE) -f CMakeFiles/Overo.dir/build.make CMakeFiles/Overo.dir/AngleConvert.cpp.o
-.PHONY : AngleConvert.cpp.o
-
-AngleConvert.i: AngleConvert.cpp.i
-
-.PHONY : AngleConvert.i
-
-# target to preprocess a source file
-AngleConvert.cpp.i:
-	$(MAKE) -f CMakeFiles/Overo.dir/build.make CMakeFiles/Overo.dir/AngleConvert.cpp.i
-.PHONY : AngleConvert.cpp.i
-
-AngleConvert.s: AngleConvert.cpp.s
-
-.PHONY : AngleConvert.s
-
-# target to generate assembly for a file
-AngleConvert.cpp.s:
-	$(MAKE) -f CMakeFiles/Overo.dir/build.make CMakeFiles/Overo.dir/AngleConvert.cpp.s
-.PHONY : AngleConvert.cpp.s
-
-FaceDetection.o: FaceDetection.cpp.o
-
-.PHONY : FaceDetection.o
-
-# target to build an object file
-FaceDetection.cpp.o:
-	$(MAKE) -f CMakeFiles/Overo.dir/build.make CMakeFiles/Overo.dir/FaceDetection.cpp.o
-.PHONY : FaceDetection.cpp.o
-
-FaceDetection.i: FaceDetection.cpp.i
-
-.PHONY : FaceDetection.i
-
-# target to preprocess a source file
-FaceDetection.cpp.i:
-	$(MAKE) -f CMakeFiles/Overo.dir/build.make CMakeFiles/Overo.dir/FaceDetection.cpp.i
-.PHONY : FaceDetection.cpp.i
-
-FaceDetection.s: FaceDetection.cpp.s
-
-.PHONY : FaceDetection.s
-
-# target to generate assembly for a file
-FaceDetection.cpp.s:
-	$(MAKE) -f CMakeFiles/Overo.dir/build.make CMakeFiles/Overo.dir/FaceDetection.cpp.s
-.PHONY : FaceDetection.cpp.s
-
 OpenCVProject.o: OpenCVProject.cpp.o
 
 .PHONY : OpenCVProject.o
@@ -240,12 +186,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Overo"
 	@echo "... edit_cache"
-	@echo "... AngleConvert.o"
-	@echo "... AngleConvert.i"
-	@echo "... AngleConvert.s"
-	@echo "... FaceDetection.o"
-	@echo "... FaceDetection.i"
-	@echo "... FaceDetection.s"
 	@echo "... OpenCVProject.o"
 	@echo "... OpenCVProject.i"
 	@echo "... OpenCVProject.s"

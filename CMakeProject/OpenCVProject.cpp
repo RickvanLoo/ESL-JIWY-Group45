@@ -4,20 +4,24 @@
 //#include "/usr/include/opencv2/objdetect/objdetect.hpp"
 //#include "/usr/include/opencv2/highgui/highgui.hpp"
 //#include "/usr/include/opencv2/imgproc/imgproc.hpp"
-#include "/usr/include/opencv2/objdetect/objdetect.hpp"
-#include "/usr/include/opencv2/highgui/highgui.hpp"
-#include "/usr/include/opencv2/imgproc/imgproc.hpp"
+//#include "/usr/include/opencv2/objdetect/objdetect.hpp"
+//#include "/usr/include/opencv2/highgui/highgui.hpp"
+//#include "/usr/include/opencv2/imgproc/imgproc.hpp"
 
-#include "FaceDetection.h"
-#include "AngleConvert.h"
+//#include <opencv2/objdetect.hpp>
+//#include <opencv2/highgui.hpp>
+//#include <opencv2/imgproc.hpp>
+
+//#include "FaceDetection.h"
+//#include "AngleConvert.h"
 #include "SerialConnection.h"
 #include <iostream>
 #include <tuple>
 
 using namespace std;
-using namespace cv;
+//using namespace cv;
 
-string cascadeName, nestedCascadeName;
+//string cascadeName, nestedCascadeName;
 
 int main( int argc, const char** argv )
 {
@@ -45,6 +49,7 @@ int main( int argc, const char** argv )
 	MinPan = Serial.MaxCountPan();
 
     // VideoCapture class for playing video for which faces to be detected
+    /* 
     VideoCapture capture;
     Mat frame, image;
 
@@ -127,6 +132,7 @@ int main( int argc, const char** argv )
     }
     else
         cout<<"Could not Open Camera";
+        */
     return 0;
 }
 

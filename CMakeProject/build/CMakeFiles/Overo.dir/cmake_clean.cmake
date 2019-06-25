@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Overo.dir/AngleConvert.cpp.o"
-  "CMakeFiles/Overo.dir/FaceDetection.cpp.o"
   "CMakeFiles/Overo.dir/OpenCVProject.cpp.o"
   "CMakeFiles/Overo.dir/SerialConnection.cpp.o"
   "Overo.pdb"
