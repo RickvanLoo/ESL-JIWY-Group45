@@ -11,9 +11,9 @@
 //#include <opencv2/highgui.hpp>
 //gi#include <opencv2/imgproc.hpp>
 
-#include "/usr/include/opencv2/objdetect/objdetect.hpp>
-#include "/usr/include/opencv2/highgui/highgui.hpp>
-#include "/usr/include/opencv2/imgproc/imgproc.hpp>
+#include "/usr/include/opencv2/objdetect/objdetect.hpp"
+#include "/usr/include/opencv2/highgui/highgui.hpp"
+#include "/usr/include/opencv2/imgproc/imgproc.hpp"
 
 #include <iostream>
 #include <tuple>
