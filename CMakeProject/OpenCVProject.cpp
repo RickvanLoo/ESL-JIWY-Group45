@@ -8,12 +8,12 @@
 //#include "/usr/include/opencv2/highgui/highgui.hpp"
 //#include "/usr/include/opencv2/imgproc/imgproc.hpp"
 
-//#include <opencv2/objdetect.hpp>
-//#include <opencv2/highgui.hpp>
-//#include <opencv2/imgproc.hpp>
+#include <opencv2/objdetect.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
 
-//#include "FaceDetection.h"
-//#include "AngleConvert.h"
+#include "FaceDetection.h"
+#include "AngleConvert.h"
 #include "SerialConnection.h"
 #include <iostream>
 #include <tuple>
@@ -49,7 +49,7 @@ int main( int argc, const char** argv )
 	MinPan = Serial.MaxCountPan();
 
     // VideoCapture class for playing video for which faces to be detected
-    /* 
+    
     VideoCapture capture;
     Mat frame, image;
 
